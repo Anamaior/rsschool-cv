@@ -32,9 +32,9 @@ background-size: auto;
 }
 
 img {
-  width: 40px;
-  height: 40px;
-  border-radius: 40px;
+  width: 300px;
+  height: 300px;
+  border-radius: 300px;
 }
 
 a {
@@ -59,6 +59,15 @@ a {
   display: flex;
 }
 
+p {
+  margin: 0,5em;
+  font-size: 25px;
+}
+
+h2{
+  margin: 1em;
+}
+
 li {
   float: left;
 }
@@ -66,15 +75,14 @@ li {
 .main.container {
   max-width: 1440px;
   margin: 0 auto;
-  align-content: center;
- 
+  align-content: center; 
 }
 
 .main {
 max-width: 1440px;
 margin: 0 auto;
 align-content: center;
-column-count: 3;
+
 flex-grow: 1;
 }
   
@@ -83,14 +91,14 @@ display: flex;
 background-color: cadetblue;
 justify-content: space-around;
 font-size: 20px large;
+align-items: center;
 }
  
-  
-  
-}
-
 .footer_logo {
-  width: 20px;
-  height: 20px;
-
+  width: 40px;
+  height: 40px;
 }
+.section {
+column-count:2;
+}
+
