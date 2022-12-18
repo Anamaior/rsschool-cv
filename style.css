@@ -1,1 +1,150 @@
+* {
+    box-sizing: border-box;
+  }
 
+  html {
+    scroll-behavior: smooth; 
+  }
+
+body {
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    min-height: 100vh;
+    margin: 0; 
+    padding: 0;
+    
+
+}
+
+.avatar {
+    width: 542px;
+    
+    
+}
+
+.profile p {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(16, 16, 17);
+    padding-left: 2em;
+    
+}
+.profile h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(19, 19, 19);
+    padding-left: 1em;
+    
+  
+}
+
+
+.conteiner {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background: #111; 
+    margin: 0;
+    
+  }
+
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(244, 234, 234);
+  }
+
+.section-one {
+  background-color: rgb(248, 214, 214);
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.section-two {
+  background: rgb(184, 179, 179) ;
+  display: flex;
+  align-items: center;
+  
+}
+
+.section-three {
+  background: rgb(184, 179, 179);
+  flex: 2.3;
+  padding: 30px;
+  font-size: 25px;
+  font-family:'Gill Sans MT';
+  font-weight: 400;
+  line-height: 1.5;
+  
+}
+
+.main-conteiner {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-four {
+  background: rgb(248, 214, 214);
+  flex: 4;
+  padding: 30px;
+  font-size: 25px;
+  font-family:'Gill Sans';
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    background: #111;
+}
+.footer-container > p {
+  color: aliceblue;
+}
+
+.two-conteiner {
+  display: flex;
+  font-size: 16px;
+  padding: 0;
+  line-height: 30px;
+  
+
+}
+
+.footer_logo {
+  width: 60px;
+}
+
+.rss_logo {
+  width: 5;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.section-two > h2 {
+  padding-top: 0%;
+  margin: 3em;
+}
+
+.section-two > p {
+  font-size: 25px;
+  margin: 2em;
+}
